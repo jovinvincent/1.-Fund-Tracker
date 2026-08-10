@@ -1,0 +1,6 @@
+{
+  "name": "Fund Tracker",
+  "description": "Real-time tracker for the quant Multi Asset Allocation Fund. Details live status, hedging derivatives, commodities, and bonds scaled to an investment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
