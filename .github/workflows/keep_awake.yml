@@ -11,9 +11,8 @@ jobs:
     steps:
       - name: Fast HTTP Ping
         run: |
-          echo "Sending fast ping to wake up dev and pre servers..."
+          echo "Sending fast ping to wake up dev server..."
           curl -s -f "https://ais-dev-twaf5v3niposla3rznryci-680968902783.europe-west2.run.app/api/health" || true
-          curl -s -f "https://ais-pre-twaf5v3niposla3rznryci-680968902783.europe-west2.run.app/api/health" || true
 
       - name: Checkout repository
         uses: actions/checkout@v4
